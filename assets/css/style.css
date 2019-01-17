@@ -116,4 +116,20 @@ small, .font_small {
   float: right;
 }
 
+.navbar{
+  transition: all 2s;
+}
+.my-top-nav {
+  height: 110px;
+  transition: all 2s;
+}
+
+.my-bottom-nav{
+  top: 110px;
+  transition: all 2s;
+}
+
+body{
+  height: 2000px;
+}
 /******************** ICONGRAPHY ********************/

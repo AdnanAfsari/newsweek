@@ -29,7 +29,7 @@
     <!-- =========================
          STYLESHEETS
     ============================== -->
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -48,12 +48,38 @@
 ============================== -->
 
 <header >
+<div class="fixed-top navbar my-top-nav navbar-expand-lg navbar-dark bg-dark" id="navbar">
+<p>dhdhhhdh</p>
 
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+</div>
 <!-- .navbar -->
-<nav>
 
+
+<nav class="my-bottom-nav navbar navbar-expand-lg navbar-light bg-light d-sm-none d-md-block ">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
 
 </nav>
+
 <!-- /.navbar -->
 
 </header>
@@ -68,6 +94,48 @@
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 
+  <script>
+      // $(window).scroll(function() {
+      //     if ($(this).scrollTop()>300)
+      //      {
+      //         $('.my-top-nav').removeClass();
+      //      }
+      //     else
+      //      {
+      //       $('.my-top-nav').addClass();
+      //      }
+      //  });
 
+
+    // $(document).on('scroll', function() {
+    //  	  var scrollPos = $(this).scrollTop();
+    //
+    //    	if( scrollPos > 150 ) {
+    //    	  $('.fixed-top').removeClass('.my-top-nav');
+    //    	} else {
+    //    	 $('fixed-top').addClass('.my-top-nav');
+    //    	}
+    //  	});
+  </script>
+
+  <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          // document.getElementById("navbar").style.top = "0";
+
+
+            var element = document.getElementById("navbar");
+            element.classList.add("my-top-nav");
+        } else {
+          // document.getElementById("navbar").style.top = "-50px";
+
+          var element = document.getElementById("navbar");
+          element.classList.remove("my-top-nav");
+        }
+        prevScrollpos = currentScrollPos;
+      }
+  </script>
 </body>
 </html>
