@@ -14,6 +14,7 @@ body {
   line-height: 1.7;
   color: #696969;
   font-size: 14px;
+
 }
 img {
   width: 100%;
@@ -141,6 +142,7 @@ svg{
   color: #fff;
   border: 0 solid red;
 }
+<<<<<<< HEAD
 
 .top-nav-sub .subscribe {
   background: #fff;
@@ -155,7 +157,7 @@ svg{
 }
 
 .navbar-nav .nav-item .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   border-right: 1px solid #808080;
   line-height: 20px;
@@ -192,6 +194,11 @@ svg{
 
 /********************************************************************/
 
+=======
+.mid-col {
+  position: static;
+}
+>>>>>>> bottom-section
 .featured-stories, .top-stories, .opinion {
   padding: 10px;
 
@@ -212,6 +219,9 @@ svg{
 
 
 @media (max-width: 768px) {
+  .content {
+    width: 98%;
+  }
 
 }
 
