@@ -26,11 +26,12 @@ h6 {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 4.5em;
+  font-size: 1.80rem;
   font-weight: 600;
   line-height: 1.04;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 h2 {
@@ -46,8 +47,8 @@ h3 {
 
 h4 {
   font-size: 1.125em;
-  font-weight: 500;
-  margin: 0;
+  font-weight: 800;
+  margin-top: 10px;
 }
 
 ul {
@@ -71,24 +72,8 @@ a:focus {
   text-decoration: none;
 }
 
-blockquote {
-  border: none;
-  padding: 0;
-}
-
-.text-small {
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-.sub-heading {
-  font-size: 20px;
-}
-
-.client-name {
-  font-style: italic;
-  display: block;
+p {
+  font-size: .82rem;
 }
 
 @media (max-width: 768px) {
@@ -108,12 +93,21 @@ blockquote {
     margin-bottom: 20px;
   }
 }
-small, .font_small {
-  font-size: 0.707em;
+
+
+/******************** INTHEMEGAZINE ********************/
+.mg-top{
+  margin-top: 35px;
 }
 
-.list-block li {
-  float: right;
+.section-generic {
+  min-height: 800px;
+  margin-top: 50px;
 }
 
-/******************** ICONGRAPHY ********************/
+.section-generic img{
+  width: 100%;
+}
+
+
+/******************** editorpick ********************/
