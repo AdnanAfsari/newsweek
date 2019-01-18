@@ -79,6 +79,118 @@ a:focus {
 }
 
 
+
+/******************** NAVIGATIONS ********************/
+
+header {
+  min-height: 200px;
+}
+
+@-moz-document url-prefix(){
+  .logo-svg {
+    height: 200px;
+    width: 250px;
+  }
+
+  @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+    .logo-svg {
+      height: 100px;
+      width: 150px;
+      line-height: 100px;
+      }
+
+      svg{
+        height: 55px;
+        width: 130px;
+      }
+  }
+}
+
+
+
+
+svg{
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-dark{
+  transition: all 2s;
+  background: red!important;
+}
+
+.fixed-top.navbar {
+  padding: 0 15px 0 15px!important;
+}
+.my-top-nav {
+  height: 110px;
+  transition: all 2s;
+}
+
+.my-bottom-nav{
+  top: 110px;
+  transition: all 2s;
+}
+
+.top-nav-date{
+  color: #fff;
+  font-weight: bold;
+}
+
+.top-nav-sub .signin {
+  background: none;
+  color: #fff;
+  border: 0 solid red;
+}
+
+.top-nav-sub .subscribe {
+  background: #fff;
+  color: red;
+  font-weight: bold;
+  border: 0 solid red
+  padding: 0 5px 0 5px
+}
+.my-bottom-nav.navbar-light {
+  background: #fff!important;
+  border-bottom: 2px solid #808080;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-right: 1px solid #808080;
+  line-height: 20px;
+  color: black;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: red;
+}
+
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    svg{
+      height: 55px;
+      width: 130px;
+    }
+
+    .my-bottom-nav.navbar-light {
+
+      border-bottom: 0px solid #808080;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+
+      border-right: 0px solid #808080;
+    }
+
+}
+
+
+
 /********************************************************************/
 
 .featured-stories, .top-stories, .opinion {
