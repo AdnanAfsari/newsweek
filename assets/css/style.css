@@ -215,5 +215,25 @@ svg{
 
 }
 
+.border {
+  height: 1px;
+  background: black;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
 
+/******************** INTHEMEGAZINE ********************/
+.mg-top{
+  margin-top: 35px;
+}
+
+.section-generic {
+  min-height: 800px;
+  margin-top: 50px;
+}
+
+.section-generic img{
+  width: 100%;
+}
 /******************** ICONGRAPHY ********************/
