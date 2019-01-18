@@ -102,6 +102,30 @@ a:focus {
 header {
   min-height: 200px;
 }
+
+@-moz-document url-prefix(){
+  .logo-svg {
+    height: 200px;
+    width: 250px;
+  }
+
+  @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+    .logo-svg {
+      height: 100px;
+      width: 150px;
+      line-height: 100px;
+      }
+
+      svg{
+        height: 55px;
+        width: 130px;
+      }
+  }
+}
+
+
+
+
 svg{
   height: 100%;
   width: 100%;
