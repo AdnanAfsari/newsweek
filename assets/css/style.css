@@ -80,10 +80,7 @@ a:focus {
 
 
 /********************************************************************/
-.content {
-  width: 70%;
-  margin: 0 auto;
-}
+
 .featured-stories, .top-stories, .opinion {
   padding: 10px;
 
