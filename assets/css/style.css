@@ -142,7 +142,7 @@ svg{
   color: #fff;
   border: 0 solid red;
 }
-<<<<<<< HEAD
+
 
 .top-nav-sub .subscribe {
   background: #fff;
@@ -162,9 +162,10 @@ svg{
   border-right: 1px solid #808080;
   line-height: 20px;
   color: black;
-  padding-right: 15px;
+  padding-right: 12px;
   padding-left: 15px;
 }
+
 
 .navbar-nav .nav-item .nav-link:hover {
   color: red;
@@ -194,11 +195,11 @@ svg{
 
 /********************************************************************/
 
-=======
+
 .mid-col {
   position: static;
 }
->>>>>>> bottom-section
+ bottom-section
 .featured-stories, .top-stories, .opinion {
   padding: 10px;
 
