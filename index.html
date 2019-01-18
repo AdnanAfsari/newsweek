@@ -31,6 +31,10 @@
          STYLESHEETS
     ============================== -->
 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
   <link rel="stylesheet" href="assets/css/style.css">
@@ -44,9 +48,11 @@
 
 
 
+
   <!-- =========================
     HEADER
 ============================== -->
+
 
 
 
@@ -216,6 +222,9 @@
           <div class="content-panel">
             <h3>Ocasio-Cortez Seeks Out McConnell to End Shutdown</h3>
           </div>
+
+
+
 
           <div class="content-block">
             <img src="assets/images/block12.png" alt="Image block">
@@ -487,6 +496,20 @@
   <script src="assets/js/main.js"></script>
 
 
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+              var element = document.getElementById("navbar");
+              element.classList.add("my-top-nav");
+          } else {
+            var element = document.getElementById("navbar");
+            element.classList.remove("my-top-nav");
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
 </body>
 
 </html>

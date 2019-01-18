@@ -29,11 +29,12 @@ h6 {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 4.5em;
+  font-size: 1.82rem;
   font-weight: 600;
+  color:black;
   line-height: 1.04;
-  color: #fff;
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 h2 {
