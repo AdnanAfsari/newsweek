@@ -68,10 +68,13 @@ ul li {
 
 a {
   text-decoration: none;
+  color: #444;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #444;
+
 }
 
 a:focus {
@@ -248,3 +251,25 @@ svg{
   width: 100%;
 }
 /******************** ICONGRAPHY ********************/
+
+/****************** Footer **************************/
+footer {
+  margin: 50px auto;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding: 20px;
+
+}
+footer img {
+  width: 280px;
+}
+footer span {
+padding: 10px;
+vertical-align: bottom;
+}
+footer .social-icon {
+}
+footer .social-icon i {
+  padding: 10px;
+  font-size: 25px;
+}
