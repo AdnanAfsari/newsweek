@@ -255,10 +255,12 @@ svg{
 /****************** Footer **************************/
 footer {
   margin: 50px auto;
+
+}
+footer .footer-top {
+  padding: 20px;
   border-top: 2px solid #ddd;
   border-bottom: 2px solid #ddd;
-  padding: 20px;
-
 }
 footer img {
   width: 280px;
@@ -272,4 +274,9 @@ footer .social-icon {
 footer .social-icon i {
   padding: 10px;
   font-size: 25px;
+}
+footer a {
+  margin: 5px auto;
+  padding: 0 10px;
+  border-right: 2px solid #ddd;
 }
