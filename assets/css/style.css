@@ -151,8 +151,8 @@ svg{
   background: #fff;
   color: red;
   font-weight: bold;
-  border: 0 solid red
-  padding: 0 5px 0 5px
+  border: 0 solid red;
+  padding: 0 5px 0 5px;
 }
 .my-bottom-nav.navbar-light {
   background: #fff!important;
@@ -250,7 +250,7 @@ svg{
 .section-generic img{
   width: 100%;
 }
-/******************** ICONGRAPHY ********************/
+
 
 /****************** Footer **************************/
 footer {
