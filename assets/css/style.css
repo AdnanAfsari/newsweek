@@ -151,6 +151,21 @@ svg{
   color: red;
 }
 
+.content-flex-panel {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.content-flex-panel h4 {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+
+}
+.us-section {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+
 
 @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -192,9 +207,7 @@ svg{
   border-top: 1px solid #696969;
   border-bottom: 1px solid #696969;
 }
-.content-flex-panel {
 
-}
 /********************************************************************/
 
 
