@@ -165,6 +165,9 @@ svg{
   border-top: 1px solid #ddd;
   padding: 10px 0;
 }
+.title h3 a{
+  color: #ff0000;
+}
 
 
 @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -260,13 +263,19 @@ padding: 10px;
 vertical-align: bottom;
 }
 footer .social-icon {
+  /* margin-left: 10px; */
+  text-align: right;
 }
 footer .social-icon i {
-  padding: 10px;
-  font-size: 25px;
+  padding: 10px 5px;
+  font-size: 22px;
 }
 footer a {
   margin: 5px auto;
-  padding: 0 10px;
+  /* padding: 0 10px; */
+  padding-right: 10px;
   border-right: 2px solid #ddd;
+}
+footer .footer-bottom-row {
+  text-align: left;
 }
